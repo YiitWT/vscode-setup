@@ -1,0 +1,151 @@
+{
+
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line-thin",
+    "editor.smoothScrolling": true,
+    "vscord.app.name": "Visual Studio Code",
+    "vscord.status.idle.timeout": 120,
+    "vscord.status.buttons.button1.active.enabled": true,
+    "vscord.status.buttons.button1.active.label": "Check my site",
+    "vscord.status.buttons.button1.active.url": "https://yiit.xyz",
+    "vscord.status.buttons.button1.idle.enabled": true,
+    "vscord.status.buttons.button1.inactive.enabled": true,
+
+    "editor.fontLigatures": true,
+
+    //!!Custom Css
+  
+
+    "animations.Install-Method": "Custom CSS and JS",
+        // Silence the Noise
+        "breadcrumbs.enabled": false,
+        "scm.diffDecorations": "none",
+        "editor.hover.delay": 500,
+        "editor.hover.enabled": true,
+        "editor.matchBrackets": "never",
+        "workbench.tips.enabled": false,
+        "git.decorations.enabled": false,
+        "workbench.startupEditor": "none",
+        "editor.lightbulb.enabled": "off",
+        "editor.selectionHighlight": false,
+        "editor.overviewRulerBorder": false,
+        "editor.renderLineHighlight": "none",
+        "editor.occurrencesHighlight": "off",
+        "problems.decorations.enabled": false,
+        "editor.renderControlCharacters": false,
+        "editor.hideCursorInOverviewRuler": true,
+        "editor.gotoLocation.multipleReferences": "goto",
+        "editor.gotoLocation.multipleDefinitions": "goto",
+        "editor.gotoLocation.multipleDeclarations": "goto",
+        "workbench.editor.enablePreviewFromQuickOpen": false,
+        "editor.gotoLocation.multipleImplementations": "goto",
+        "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    
+        // Typography 
+        "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+        "editor.suggestFontSize": 16,
+        "editor.suggestLineHeight": 30,
+        "terminal.integrated.lineHeight": 1.5,
+        "terminal.integrated.fontSize": 16,
+    
+        "search.useIgnoreFiles": false,
+        "search.exclude": {
+            // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+            "**/vendor/{[^l],?[^ai]}*": true,
+            // Hide everything in /public, except "index.php"
+            "**/public/{[^i],?[^n]}*": true,
+            "**/node_modules": true,
+            "**/dist": true,
+            "**/_ide_helper.php": true,
+            "**/composer.lock": true,
+            "**/package-lock.json": true,
+            "storage": true,
+            ".phpunit.result.cache": true
+        },
+    
+        /**
+        * Code
+        **/
+        // Include "-" in word selection.
+        "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+        "emmet.includeLanguages": {
+            "blade": "html",
+            "vue-html": "html",
+            "vue": "html",
+            "react": "html",
+            "javascript": "html"
+        },
+        "files.associations": {
+            ".php_cs": "php",
+            ".php_cs.dist": "php"
+        },
+    
+   
+        /**
+        * Prettier
+        **/
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+        "[typescriptreact]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+        "[tailwindcss]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+        "[vue]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+        "[javascriptreact]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+        "prettier.requireConfig": true,
+        "prettier.useEditorConfig": false,
+        "explorer.sortOrder": "type",
+        "prettier.tabWidth": 4,
+        "vetur.format.options.tabSize": 4,
+        "workbench.tree.indent": 15,
+        "[html]": {
+            "editor.defaultFormatter": "apility.beautify-blade",
+            "editor.formatOnSave": true
+        },
+        "editor.wordWrapColumn": 120,
+        "files.autoSave": "afterDelay",
+        "[css]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+    
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "[jsonc]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[json]": {
+            "editor.defaultFormatter": "vscode.json-language-features"
+        },
+        "security.workspace.trust.untrustedFiles": "open",
+        "editor.linkedEditing": true,
+        "editor.stickyScroll.enabled": false,
+        "editor.formatOnSave": false,
+        //test
+        "workbench.colorTheme": "React Theme",
+        "vscode_custom_css.imports": [
+            "file:///C:\\Users\\yiitb\\AppData\\Local\\CodeTheme\\custom-style.css",
+            "file:///C:\\Users\\yiitb\\AppData\\Local\\CodeTheme\\custom-style.js",
+
+            "file:///c:/Users/yiitb/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+        ],
+        "workbench.iconTheme": "catppuccin-frappe",
+        "workbench.activityBar.location": "bottom",
+        "editor.minimap.autohide": true,
+        "editor.minimap.maxColumn": 50,
+        "editor.minimap.enabled": false,
+}
