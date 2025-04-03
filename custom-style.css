@@ -89,10 +89,14 @@
 /* Style the hover tooltips in the editor */
 .monaco-editor-hover,
 .monaco-hover {
-    background-color: rgba(53, 57, 69, 0.7) !important;
+    background-color: rgba(53, 57, 69, 0.5) !important;
     padding: 5px;
     border-radius: 10px !important;
-    backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.markdown-hover{
+    padding-bottom: 5px;
 }
 
 /* Remove the border from resizable hover elements */
