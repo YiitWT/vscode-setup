@@ -14,6 +14,8 @@
 
     "editor.fontLigatures": true,
 
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.gpuAcceleration": "off",
     //!!Custom Css
   
 
@@ -22,6 +24,7 @@
         "breadcrumbs.enabled": false,
         "scm.diffDecorations": "none",
         "editor.hover.delay": 500,
+        "editor.hover.hidingDelay": 10000,
         "editor.hover.enabled": true,
         "editor.matchBrackets": "never",
         "workbench.tips.enabled": false,
@@ -47,7 +50,6 @@
         "editor.suggestFontSize": 16,
         "editor.suggestLineHeight": 30,
         "terminal.integrated.lineHeight": 1.5,
-        "terminal.integrated.fontSize": 16,
     
         "search.useIgnoreFiles": false,
         "search.exclude": {
@@ -135,8 +137,6 @@
         "editor.linkedEditing": true,
         "editor.stickyScroll.enabled": false,
         "editor.formatOnSave": false,
-        //test
-        "workbench.colorTheme": "React Theme",
         "vscode_custom_css.imports": [
             "file:///C:\\Users\\yiitb\\AppData\\Local\\CodeTheme\\custom-style.css",
             "file:///C:\\Users\\yiitb\\AppData\\Local\\CodeTheme\\custom-style.js",
@@ -148,4 +148,13 @@
         "editor.minimap.autohide": true,
         "editor.minimap.maxColumn": 50,
         "editor.minimap.enabled": false,
+        "workbench.colorTheme": "React Theme",
+        "workbench.colorCustomizations": {},
+        "terminal.integrated.mouseWheelZoom": true,
+        "terminal.integrated.cursorStyleInactive": "outline",
+        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.altClickMovesCursor": true,
+        "terminal.integrated.defaultProfile.windows": "PowerShell",
+        "terminal.integrated.fontFamily": "FiraMono Nerd Font",
+
 }
