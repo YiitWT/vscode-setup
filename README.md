@@ -52,9 +52,13 @@ To apply the custom styles:
 - **VS Code Theme:** [React Theme](https://marketplace.visualstudio.com/items?itemName=mikaelkristiansson87.react-theme-vscode)  
 - **Icons:** [Catppuccin Icons](https://marketplace.visualstudio.com/items?itemName=catppuccin.catppuccin-vsc-icons)  
 
-## 📷 Preview  
+## 📷 Preview(s)
 ![image](https://github.com/user-attachments/assets/cc098942-7abe-4513-9e5d-96f265b6ed91)
 ![image](https://github.com/user-attachments/assets/3959e8e7-d31f-4722-9a3e-2301588af91f)
+![image](https://github.com/user-attachments/assets/1ffe2e88-0493-4076-874c-a01aba156da3)
+![image](https://github.com/user-attachments/assets/1f3be61f-9438-4c1a-94ad-8cbee1e92203)
+
+
 
 
 ---
