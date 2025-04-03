@@ -21,6 +21,9 @@ Run the following command in your terminal to install all extensions from `exten
  cat extensions.list |% { code --install-extension $_}
 ```
 
+### 2️⃣.2️⃣ Install The Fonts
+monospace, Geist Mono, JetBrains Mono, FiraMono Nerd Font
+
 ### 3️⃣ Apply Settings  
 Copy `settings.json` to your VS Code user settings folder:  
 
